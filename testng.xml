@@ -2,5 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Test"></class>
+			<class name="Test2"></class>
+			<class name="Test3"></class>
+			<class name="Test44"></class>
+		</classes>
 	</test> <!-- Test -->
-</suite> <!-- Suite -->
+</suite> <!--
+Suite -->
