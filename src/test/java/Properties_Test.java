@@ -39,7 +39,7 @@ public class Properties_Test {
 		// Priority: system property > testng.xml param > default "qa"
 		String finalEnv = System.getProperty("env") != null ? System.getProperty("env")
 				: (envFromXml != null ? envFromXml : "qa");
-
+		System.out.println("System properties is :"+System.getProperty("env"));
 		System.out.println("Environment: " + finalEnv);
 
 		ConfigLoader config = new ConfigLoader(finalEnv);
