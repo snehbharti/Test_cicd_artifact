@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Job-3</name>
+=======
+	<name>Test_cicd_artifact</name>
+>>>>>>> 089df10aaa2fb61b8bdc0e604b4d713b0bc6e09c
 	<comment></comment>
 	<projects>
 	</projects>

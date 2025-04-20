@@ -1,9 +1,10 @@
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Demo2 {
-	
+
 	public static void main(String[] args) {
 		String s = "My name is sneh bharti ,I Am foodiE, aa A I have umbrella";
 		char[] ch = s.toCharArray();
@@ -38,7 +39,7 @@ public class Demo2 {
 		ArrayList<Map.Entry<Character, Integer>> al = new ArrayList<>(hm.entrySet());
 
 		al.sort(Map.Entry.comparingByKey());
-		
+
 		System.out.println((al));
 	}
 
