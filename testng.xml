@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<!-- Pass env parameter (this will be used only if System.getProperty is not set) -->
+
+<parameter name="env" value="uat" />
 	<test thread-count="5" name="Test">
-		<parameter name="env" value="uat" />
+		
 		<classes>
-			<class name="Test"></class>
+			<class name="Test1"></class>
 			<class name="Test2"></class>
 			<class name="Test3"></class>
 			<class name="Test44"></class>
