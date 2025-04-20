@@ -36,6 +36,7 @@ public class Properties_Test {
 	@BeforeSuite
 	@Parameters("env")
 	public void setup(@Optional("qa") String envFromXml) {
+		System.out.println("Inside Before Suite");
 		// Priority: system property > testng.xml param > default "qa"
 		String finalEnv = System.getProperty("env") != null ? System.getProperty("env")
 				: (envFromXml != null ? envFromXml : "qa");
