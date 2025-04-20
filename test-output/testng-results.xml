@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-20T11:22:12 IST" name="Suite" finished-at="2025-04-20T11:22:12 IST" duration-ms="54">
+    <groups>
+    </groups>
+    <test started-at="2025-04-20T11:22:12 IST" name="Test" finished-at="2025-04-20T11:22:12 IST" duration-ms="54">
+      <class name="Test">
+        <test-method signature="m1()[pri:0, instance:Test@33065d67]" started-at="2025-04-20T11:22:12 IST" name="m1" finished-at="2025-04-20T11:22:12 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- Test -->
+      <class name="Test44">
+        <test-method signature="m1()[pri:0, instance:Test44@359df09a]" started-at="2025-04-20T11:22:12 IST" name="m1" finished-at="2025-04-20T11:22:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- Test44 -->
+      <class name="Test3">
+        <test-method signature="m1()[pri:0, instance:Test3@609e8838]" started-at="2025-04-20T11:22:12 IST" name="m1" finished-at="2025-04-20T11:22:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- Test3 -->
+      <class name="Test2">
+        <test-method is-config="true" signature="o()[pri:0, instance:Test2@2b30a42c]" started-at="2025-04-20T11:22:07 IST" name="o" finished-at="2025-04-20T11:22:12 IST" duration-ms="4893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- o -->
+        <test-method signature="m1()[pri:0, instance:Test2@2b30a42c]" started-at="2025-04-20T11:22:12 IST" name="m1" finished-at="2025-04-20T11:22:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
