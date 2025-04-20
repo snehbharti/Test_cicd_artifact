@@ -3,7 +3,7 @@
 <suite name="Suite">
 <!-- Pass env parameter (this will be used only if System.getProperty is not set) -->
 
-<parameter name="env" value="uat" />
+<parameter name="env" value="qa" />
 	<test thread-count="5" name="Test">
 		
 		<classes>
