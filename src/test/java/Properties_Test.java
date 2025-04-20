@@ -49,5 +49,16 @@ public class Properties_Test {
 
 		System.out.println("Username from config: " + config.get("username"));
 	}
+	/*
+	 * This code prioritizes:
+	 * 
+	 * Jenkins/system environment (-Denv=xxx)
+	 * 
+	 * Then testng.xml <parameter name="env" value="xxx"/>
+	 * 
+	 * Then default "qa"
+	 * 
+	 * This setup is perfect for CI/CD pipelines like Jenkins 👌
+	 */
 
 }
