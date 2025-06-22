@@ -12,6 +12,7 @@ public class TestSmoke2 {
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://facebook.com");
 		Reporter.log(driver.getTitle());
+		System.out.println(driver.getTitle());
 		System.out.println("Test Smoke 2 end");
 		
 	}
