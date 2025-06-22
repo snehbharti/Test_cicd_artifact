@@ -8,9 +8,11 @@ public class TestSmoke2 {
 	
 	@Test
 	public void getFacebookTitle() {
+		System.out.println("Test Smoke 2 start");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://facebook.com");
 		Reporter.log(driver.getTitle());
+		System.out.println("Test Smoke 2 end");
 		
 	}
 
