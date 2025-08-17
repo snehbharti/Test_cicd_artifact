@@ -30,7 +30,7 @@ public class Launch {
 		// 		"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.178 Safari/537.36");
 		// // options.addArguments("--profile-directory=Default");
 
-		ChromeOptions options = new ChromeOptions();
+		//ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless=new");  // Important for Chrome 109+
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
@@ -39,8 +39,6 @@ public class Launch {
 		options.addArguments("--disable-notifications");
 		options.addArguments("--disable-blink-features=AutomationControlled");
 		options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.178 Safari/537.36");
-
-WebDriver driver = new ChromeDriver(options);
 
 		WebDriver driver = new ChromeDriver(options);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
