@@ -20,6 +20,8 @@ public class TestSmoke2 {
 		options.addArguments("--disable-blink-features=AutomationControlled");
 		options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.178 Safari/537.36");
 		options.addArguments("--remote-allow-origins=*"); // Sometimes needed to avoid startup failure
+		options.addArguments("--remote-debugging-port=9222");
+
 		ChromeDriver driver=new ChromeDriver(options);
 		driver.get("https://facebook.com");
 		Reporter.log(driver.getTitle(), true);
