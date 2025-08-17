@@ -11,7 +11,7 @@ public class TestSmoke2 {
 	public void getFacebookTitle() {
 		System.out.println("Test Smoke 2 start");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless=new");  // Important for Chrome 109+
+		options.addArguments("--headless");  // Important for Chrome 109+
 		// options.setBinary("/usr/bin/google-chrome-stable");
 
 		// options.addArguments("--no-sandbox");
