@@ -39,6 +39,8 @@ public class Launch {
 		options.addArguments("--disable-notifications");
 		options.addArguments("--disable-blink-features=AutomationControlled");
 		options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.178 Safari/537.36");
+		options.addArguments("--remote-allow-origins=*"); // Sometimes needed to avoid startup failure
+
 
 		WebDriver driver = new ChromeDriver(options);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
