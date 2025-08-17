@@ -12,6 +12,8 @@ public class TestSmoke2 {
 		System.out.println("Test Smoke 2 start");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless=new");  // Important for Chrome 109+
+		options.setBinary("/usr/bin/google-chrome-stable");
+
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--disable-gpu");
